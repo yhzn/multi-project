@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./icon/favicon.ico">
+
+    <script language="javascript" type="text/javascript" src="./plugin/WdatePicker.js"></script>
+    <title>webpack-index</title>
+</head>
+<body>
+<div>
+    <h3>主页</h3>
+    <input type="text" placeholder="开始时间"  class="Wdate" ref="startTime" onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd HH:mm:ss'})">
+    <span>—</span>
+    <input type="text" placeholder="结束时间"  class="Wdate" ref="endTime" onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd HH:mm:ss'})">
+    <div class="container">
+        <img src="../image/1.jpg" alt="">
+    </div>
+    <div class="container bg-img">
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+div{
+    padding:5px 10px;
+    border:1px solid #b6b6b6;
+}
+.container{
+    height:260px;
+    width:300px;
+    margin-bottom:20px;
+}
+.bg-img{
+    background:url('../image/2.jpg');
+    background-size: 100% 100%;
+}
+.container img{
+    width:100%;
+    height:100%;
+}
